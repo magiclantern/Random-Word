@@ -70,7 +70,7 @@ class ViewController: NSViewController {
 
 // MARK: - UI Actions
     
-    @IBAction func didClickMoreButton(sender: AnyObject) {
+    @IBAction func didClickNextButton(sender: AnyObject) {
         displayRandomWord()
     }
 }

@@ -126,7 +126,7 @@ DQ
 </string>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="didClickMoreButton:" target="XfG-lQ-9wD" id="5if-xT-dHN"/>
+                                            <action selector="didClickNextButton:" target="XfG-lQ-9wD" id="DIa-dT-iBK"/>
                                         </connections>
                                     </button>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bhq-1f-pFB" customClass="TextField" customModule="Random_Word" customModuleProvider="target">
