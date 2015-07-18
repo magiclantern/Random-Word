@@ -49,7 +49,6 @@ class ViewController: NSViewController {
     func displayRandomWord() {
         currentWord = pickRandomWord()
         wordLabel.stringValue = currentWord
-        println(defineWithSystemDictionary(currentWord))
     }
     
     func pickRandomWord() -> String! {
