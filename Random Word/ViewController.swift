@@ -57,6 +57,11 @@ class ViewController: NSViewController {
     }
     
     func defineWithSystemDictionary(word: String) -> String! {
+        // Returns the definition of a word
+        // as a Swift String
+        //
+        // Not currently called in any way
+        
         var range = CFRangeMake(0, count(word))
         var definitionCfString:Unmanaged<CFString>! = DCSCopyTextDefinition(nil, word, range)
         var definition = definitionCfString.takeRetainedValue() as String
