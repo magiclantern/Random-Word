@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D26F9351B59AF080009F22A /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D26F9341B59AF080009F22A /* TextField.swift */; };
 		0D305EE51B594E1E005C7760 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D305EE41B594E1E005C7760 /* WindowController.swift */; };
+		0D4C066A1B5AAE1200F67096 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0D4C06691B5AAE1200F67096 /* LICENSE.txt */; };
 		0D9E9F9F1B5946E800E2D4E8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0D9E9F9E1B5946E800E2D4E8 /* Credits.rtf */; };
 		0DEE378B1B5935A600B01222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEE378A1B5935A600B01222 /* AppDelegate.swift */; };
 		0DEE378D1B5935A600B01222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEE378C1B5935A600B01222 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		0D26F9341B59AF080009F22A /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		0D305EE41B594E1E005C7760 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		0D4C06691B5AAE1200F67096 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		0D9E9F9E1B5946E800E2D4E8 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		0DEE37851B5935A600B01222 /* Random Word.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random Word.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DEE37891B5935A600B01222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				0DEE378E1B5935A600B01222 /* Images.xcassets */,
 				0DEE37901B5935A600B01222 /* Main.storyboard */,
 				0DEE37881B5935A600B01222 /* Supporting Files */,
+				0D4C06691B5AAE1200F67096 /* LICENSE.txt */,
 			);
 			path = "Random Word";
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				0D9E9F9F1B5946E800E2D4E8 /* Credits.rtf in Resources */,
 				0DEE378F1B5935A600B01222 /* Images.xcassets in Resources */,
 				0DEE37AC1B5942AF00B01222 /* EnglishNouns.txt in Resources */,
+				0D4C066A1B5AAE1200F67096 /* LICENSE.txt in Resources */,
 				0DEE37921B5935A600B01222 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
