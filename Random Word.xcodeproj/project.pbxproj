@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0D26F9351B59AF080009F22A /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D26F9341B59AF080009F22A /* TextField.swift */; };
 		0D305EE51B594E1E005C7760 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D305EE41B594E1E005C7760 /* WindowController.swift */; };
-		0D9E9F9B1B5945EA00E2D4E8 /* WordNetAllNouns.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0D9E9F9A1B5945EA00E2D4E8 /* WordNetAllNouns.txt */; };
 		0D9E9F9F1B5946E800E2D4E8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0D9E9F9E1B5946E800E2D4E8 /* Credits.rtf */; };
 		0DEE378B1B5935A600B01222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEE378A1B5935A600B01222 /* AppDelegate.swift */; };
 		0DEE378D1B5935A600B01222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEE378C1B5935A600B01222 /* ViewController.swift */; };
@@ -31,7 +30,6 @@
 /* Begin PBXFileReference section */
 		0D26F9341B59AF080009F22A /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		0D305EE41B594E1E005C7760 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
-		0D9E9F9A1B5945EA00E2D4E8 /* WordNetAllNouns.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WordNetAllNouns.txt; sourceTree = "<group>"; };
 		0D9E9F9E1B5946E800E2D4E8 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		0DEE37851B5935A600B01222 /* Random Word.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random Word.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DEE37891B5935A600B01222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,7 +93,6 @@
 		0DEE37881B5935A600B01222 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0D9E9F9A1B5945EA00E2D4E8 /* WordNetAllNouns.txt */,
 				0DEE37AB1B5942AF00B01222 /* EnglishNouns.txt */,
 				0DEE37891B5935A600B01222 /* Info.plist */,
 				0D9E9F9E1B5946E800E2D4E8 /* Credits.rtf */,
@@ -184,7 +181,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D9E9F9F1B5946E800E2D4E8 /* Credits.rtf in Resources */,
-				0D9E9F9B1B5945EA00E2D4E8 /* WordNetAllNouns.txt in Resources */,
 				0DEE378F1B5935A600B01222 /* Images.xcassets in Resources */,
 				0DEE37AC1B5942AF00B01222 /* EnglishNouns.txt in Resources */,
 				0DEE37921B5935A600B01222 /* Main.storyboard in Resources */,
@@ -326,7 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2.2;
+				CURRENT_PROJECT_VERSION = 2.3;
 				INFOPLIST_FILE = "Random Word/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "Random Word";
@@ -339,7 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2.2;
+				CURRENT_PROJECT_VERSION = 2.3;
 				INFOPLIST_FILE = "Random Word/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "Random Word";
