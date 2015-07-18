@@ -19,19 +19,15 @@ class ViewController: NSViewController {
     let path = NSBundle.mainBundle().pathForResource("EnglishNouns", ofType: "txt")
 
     var words = [String]()
-    var currentWord = "word"
+    var currentWord = ""
     
     @IBOutlet var wordLabel: NSTextField!
     
 // MARK: - Lifecycle methods
     
-    override func viewDidAppear() {
-        super.viewDidAppear()
-    }
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
+        super.viewDidLoad()        
         loadWords()
     }
     
