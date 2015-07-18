@@ -20,4 +20,4 @@ The displayed word can be copied to the clipboard.
 
 The word file included is Desi Quintan’s [Great Noun List](http://www.desiquintans.com/nounlist). 
 
-This file only has nouns in the English language in it.
+This file only contains nouns in the English language.
