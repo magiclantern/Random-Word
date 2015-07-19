@@ -6,7 +6,6 @@
 
 import Cocoa
 import CoreServices
-import Darwin
 
 extension Array {
     func randomItem() -> T {
