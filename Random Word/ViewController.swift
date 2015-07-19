@@ -6,6 +6,7 @@
 
 import Cocoa
 import CoreServices
+import Darwin
 
 extension Array {
     func randomItem() -> T {
@@ -24,11 +25,16 @@ class ViewController: NSViewController {
     @IBOutlet var wordLabel: NSTextField!
     
 // MARK: - Lifecycle methods
-    
-    
+        
     override func viewDidLoad() {
-        super.viewDidLoad()        
-        loadWords()
+        super.viewDidLoad()
+        
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
+            self.loadWords()
+            dispatch_async(dispatch_get_main_queue()) {
+                self.displayRandomWord()
+            }
+        }
     }
     
     override var representedObject: AnyObject? {
