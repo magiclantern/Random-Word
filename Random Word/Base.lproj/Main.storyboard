@@ -142,6 +142,7 @@ DQ
                                     </textField>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="0Bf-o5-Xzd"/>
                                     <constraint firstAttribute="centerX" secondItem="bhq-1f-pFB" secondAttribute="centerX" id="DgM-dz-Vks"/>
                                     <constraint firstAttribute="centerY" secondItem="bhq-1f-pFB" secondAttribute="centerY" constant="28" id="MFs-CH-Z50"/>
                                     <constraint firstItem="pN1-aA-VRT" firstAttribute="centerX" secondItem="bhq-1f-pFB" secondAttribute="centerX" id="Nt6-Ew-cHZ"/>
